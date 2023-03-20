@@ -6,7 +6,7 @@
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-
+vim.api.nvim_set_keymap('n', '<leader>f', ':NeoTreeRevealToggle<CR>', { noremap = true, silent = true })
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
