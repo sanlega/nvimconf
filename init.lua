@@ -7,6 +7,8 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.api.nvim_set_keymap('n', '<leader>f', ':NeoTreeRevealToggle<CR>', { noremap = true, silent = true })
+vim.g.user42 = 'slegaris'
+vim.g.mail42 = 'slegaris@student.42madrid.com'
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
